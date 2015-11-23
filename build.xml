@@ -117,7 +117,7 @@
             </java>
         </target>
         
-        <target name="execute.client" depends="client">
+        <target name="execute.client" depends="install,client">
             <echo message="run client" />
         </target>
         
