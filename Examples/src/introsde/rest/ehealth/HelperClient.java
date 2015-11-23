@@ -504,7 +504,7 @@ public class HelperClient {
 
 	private static URI getBaseURI() {
 		return UriBuilder.fromUri(
-				"http://immense-shore-7749.herokuapp.com/").build();
+				"http://immense-shore-7749.herokuapp.com").build();
 	}
 
 }

@@ -866,7 +866,7 @@ public class TestClient {
  
     
 	private static URI getBaseURI() {
-		return UriBuilder.fromUri("http://immense-shore-7749.herokuapp.com/").build();
+		return UriBuilder.fromUri("http://immense-shore-7749.herokuapp.com").build();
 	}
     
     
